@@ -15,7 +15,6 @@ class Generics {
         GenClass<Character> n=new GenClass<Character>();
         n.add('A');
 
-
     }
 
     public static < E > void printArray(E[] elements) {

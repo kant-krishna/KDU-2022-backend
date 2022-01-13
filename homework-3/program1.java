@@ -4,6 +4,7 @@ import java.util.Comparator;
 import java.util.Objects;
 
 class program1 {
+
     public static void main(String[] args) {
         ArrayList<Employee> employeeArrayList = new ArrayList<Employee>();
         Employee e1 = new Employee(2000, 21), e2 = new Employee(3000, 19);
@@ -12,10 +13,7 @@ class program1 {
         Comparator<Employee> compareBySalary;
         compareBySalary = (Employee o1, Employee o2) -> o1.getSalary().compareTo( o2.getSalary() );
         Collections.sort(employeeArrayList, compareBySalary);
-
-
         System.out.println(e1.equals(e2));
-
     }
 }
 
