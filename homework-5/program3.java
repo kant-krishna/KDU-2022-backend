@@ -22,7 +22,7 @@ public class User {
     }
 
     public void increase(double i) {
-        this.increase = value + i;
+        this.value = value + i;
     }
 }
 
