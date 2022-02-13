@@ -1,7 +1,6 @@
 package com.kd.backend.springboot.controller;
 
 import com.kd.backend.springboot.dto.ActorDTO;
-import com.kd.backend.springboot.dto.FilmDTO;
 import com.kd.backend.springboot.service.ActorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
